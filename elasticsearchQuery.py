@@ -5,9 +5,9 @@
 
 
 def ES_veri(index,source=0):
-    es = Elasticsearch(hosts=["http://elastic:I997uPK1oUQJCFDxc22F@192.168.160.4:9200/",
-                              "http://elastic:I997uPK1oUQJCFDxc22F@192.168.160.5:9200/",
-                              "http://elastic:I997uPK1oUQJCFDxc22F@192.168.160.6:9200/"],timeout=50)
+    es = Elasticsearch(hosts=["http://elastic:*****@192.168.*:9200/",
+                              "http://elastic:***@192.168.*:9200/",
+                              "http://elastic:**@192.168.*:9200/"],timeout=50)
     
     some_query={
         'query':{
